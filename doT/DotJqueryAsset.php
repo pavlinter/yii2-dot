@@ -18,13 +18,13 @@ class DotJqueryAsset extends \yii\web\AssetBundle
 
     public $depends = [
         'yii\web\JqueryAsset',
-        'pavlinter\doT\DoT',
+        'pavlinter\doT\DoTAsset',
     ];
 
     public function init()
     {
-        $min = YII_ENV_DEV ? '.min' : '';
-        $this->js[] = 'js/doT' . $min .'.js';
+        $min = YII_ENV_DEV ? '' : '.min';
+        $this->js[] = 'js/jquery.doT' . $min .'.js';
         parent::init();
     }
 }

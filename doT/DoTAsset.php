@@ -19,7 +19,7 @@ class DoTAsset extends \yii\web\AssetBundle
 
     public function init()
     {
-        $min = YII_ENV_DEV ? '.min' : '';
+        $min = YII_ENV_DEV ? '' : '.min';
         $this->js[] = 'js/doT' . $min .'.js';
         parent::init();
     }
