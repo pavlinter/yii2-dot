@@ -1,12 +1,12 @@
 {
-    "name": "pavlinter/yii2-doT",
+    "name": "pavlinter/yii2-dot",
     "description": "Yii2: doT javascript template",
     "keywords": ["yii2", "doT", "template"],
     "type": "yii2-extension",
     "license": "BSD 3-Clause",
     "support": {
-        "issues": "https://github.com/pavlinter/yii2-doT/issues",
-        "source": "https://github.com/pavlinter/yii2-doT"
+        "issues": "https://github.com/pavlinter/yii2-dot/issues",
+        "source": "https://github.com/pavlinter/yii2-dot"
     },
     "authors": [
         {
