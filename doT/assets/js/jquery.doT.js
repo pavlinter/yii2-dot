@@ -2,7 +2,7 @@
 
     $.fn.tmplHtml = function(tmplId, data, prefix) {
         var p = prefix || 'tmpl_';
-        var tmpl = doT.template($('#tmpl_' + p + tmplId).text());
+        var tmpl = doT.template($('#' + p + tmplId).text());
         if (!$.isArray(data)) data = [data];
 
         return this.each(function() {

@@ -54,7 +54,7 @@ class DoT extends Widget
             $this->options['type'] = 'text/plain';
         }
 
-        echo Html::beginTag('script', $this->options);
+        echo Html::beginTag('script', $this->options) . "\n";
     }
 
     /**
@@ -62,7 +62,6 @@ class DoT extends Widget
      */
     public function run()
     {
-        parent::run();
         echo Html::endTag('script');
         $view = $this->getView();
         $this->registerScript($view);
