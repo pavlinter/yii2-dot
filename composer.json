@@ -1,0 +1,25 @@
+{
+    "name": "pavlinter/yii2-doT",
+    "description": "Yii2: doT javascript template",
+    "keywords": ["yii2", "doT", "template"],
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "support": {
+        "issues": "https://github.com/pavlinter/yii2-doT/issues",
+        "source": "https://github.com/pavlinter/yii2-doT"
+    },
+    "authors": [
+        {
+            "name": "Pavels Radajevs",
+            "email": "pavlinter@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pavlinter\\": ""
+        }
+    }
+}
