@@ -68,7 +68,7 @@ class DoT extends Widget
     }
 
     /**
-     * @param $view
+     * @param $view \yii\web\View
      */
     public function registerScript($view)
     {
