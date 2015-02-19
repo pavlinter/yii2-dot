@@ -9,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist pavlinter/yii2-doT "dev-master"
+php composer.phar require --prefer-dist pavlinter/yii2-dot "dev-master"
 ```
 
 or add
 
 ```
-"pavlinter/yii2-doT": "dev-master"
+"pavlinter/yii2-dot": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
