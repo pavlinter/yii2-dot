@@ -14,7 +14,7 @@ namespace pavlinter\doT;
  */
 class DotJqueryAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = "@vendor/pavlinter/yii2-doT/doT/assets";
+    public $sourcePath = "@vendor/pavlinter/yii2-dot/doT/assets";
 
     public $depends = [
         'yii\web\JqueryAsset',

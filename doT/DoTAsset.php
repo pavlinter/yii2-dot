@@ -15,7 +15,7 @@ namespace pavlinter\doT;
  */
 class DoTAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = "@vendor/pavlinter/yii2-doT/doT/assets";
+    public $sourcePath = "@vendor/pavlinter/yii2-dot/doT/assets";
 
     public function init()
     {
