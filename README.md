@@ -1,5 +1,6 @@
-Yii2: [doT javascript template](http://olado.github.io/doT/index.html)
+Yii2:[doT javascript template
 =============================
+[doT.js](http://olado.github.io/doT/index.html)
 
 Installation
 -----------------------
