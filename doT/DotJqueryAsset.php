@@ -4,7 +4,7 @@
  * @package yii2-dot
  * @author Pavels Radajevs <pavlinter@gmail.com>
  * @copyright Copyright &copy; Pavels Radajevs <pavlinter@gmail.com>, 2015
- * @version 1.0.0
+ * @version 1.1.0
  */
 
 namespace pavlinter\doT;
